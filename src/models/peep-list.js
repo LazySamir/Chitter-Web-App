@@ -8,7 +8,7 @@
     return this.peepList;
   }
 
-  Peeps.prototype.fetchPeeps = function() {
+  PeepList.prototype.fetchPeeps = function() {
      var fetchedPeeps = [];
      fetch("https://chitter-backend-api.herokuapp.com/peeps")
       .then(function(response) {
