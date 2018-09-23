@@ -2,8 +2,17 @@
 
 A single-page front-end app that interfaces with the Chitter API.
 
-### User Stories
+###How to set up
+```
+brew install node
 
+npm install
+
+node node_modules/http-server/bin/http-server
+```
+
+### User Stories
+```
 As a User
 So I can see what people have been saying
 I want to be able to view all Peeps
@@ -35,5 +44,5 @@ I want to be able to 'like' Peeps
 As a User
 So I can change my mine about what I like
 I want to be able to 'unlike' Peeps
-
+```
 ### Domain Model

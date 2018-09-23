@@ -1,0 +1,32 @@
+{
+  "name": "chitter-front-end",
+  "version": "1.0.0",
+  "description": "Single page front end app that interfaces with Chitter API",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/LazySamir/Chitter-Web-App.git"
+  },
+  "keywords": [
+    "Javascript",
+    "Jasmine",
+    "API",
+    "Node"
+  ],
+  "author": "Samir Soormally",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LazySamir/Chitter-Web-App/issues"
+  },
+  "homepage": "https://github.com/LazySamir/Chitter-Web-App#readme",
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "jasmine-node": "^1.16.2"
+  }
+}
