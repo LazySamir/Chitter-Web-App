@@ -19,8 +19,9 @@
           fetchedPeeps.push(peep);
         });
       });
-    this.peepList = peepList;
+    this.peepList = fetchedPeeps;
   }
+  // sets constructor variable "peepList" to be last fetched peeps
 
   exports.PeepList = PeepList;
 })(this);
